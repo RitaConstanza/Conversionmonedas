@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+
+.tarjeta {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #9b9898;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.contenedor input{
+    width: 40%;
+    font-size: medium;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    color: #000000;
+}
+
+#selector{
+    width: 40%;
+    font-size: medium;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    color: #000000;
+}
+
+#btn{
+    width: 40%;
+    font-size: medium;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #307e64;
+    border: 2px solid  #298f6d;
+    color: #ffff;
+
+}
